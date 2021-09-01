@@ -1,0 +1,15 @@
+{
+  "name": "indra-testcafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "testcafe": "^1.15.3"
+  },
+  "scripts": {
+    "test": "testcafe chrome tests/ -L"
+  },
+  "author": "",
+  "license": "ISC"
+}
